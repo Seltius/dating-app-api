@@ -1,7 +1,7 @@
 package com.asamigas.api.service.impl;
 
 import com.asamigas.api.dto.request.RegisterUserRequest;
-import com.asamigas.api.exceptions.EmailAlreadyRegisteredException;
+import com.asamigas.api.error.exceptions.EmailAlreadyRegisteredException;
 import com.asamigas.api.service.mapper.UserMapper;
 import com.asamigas.api.model.User;
 import com.asamigas.api.repository.UserRepository;
