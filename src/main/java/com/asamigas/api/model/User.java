@@ -14,6 +14,7 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 public class User {
+    //TODO REVIEW IF THERE'S MORE FIELDS THAT ARE NEEDED
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
